@@ -1,0 +1,87 @@
+.main{
+
+}
+.main h1 {
+    width: 667px;
+    height: 93px;
+    margin-left: 121px;
+    font-family: Roboto Slab;
+    font-size: 55px;
+    line-height: 101%;
+    vertical-align: top;
+}
+.format{
+    width: 100%;
+    height: 300px;
+}
+th.first-th{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 25px;
+    width: 150px;
+    height: 39px;
+    line-height: 130%;
+    vertical-align: top;
+    color: #1E4681;
+}
+th.two-th{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 25px;
+    width: 214px;
+    height: 39px;
+    line-height: 130%;
+    vertical-align: top;
+    color: #1E4681;
+}
+th.three-th{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 25px;
+    width: 150px;
+    height: 39px;
+    line-height: 130%;
+    vertical-align: top;
+    color: #1E4681;
+}
+.first-td{
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 23px;
+    line-height: 130%;
+    align: left;
+    vertical-align: top;
+    width: 223px;
+    height: 39px;
+}
+.two-td{
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 23px;
+    line-height: 130%;
+    align: left;
+    vertical-align: top;
+    width: 271px;
+    height: 109px;
+}
+.three-td{
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 23px;
+    line-height: 130%;
+    align: left;
+    vertical-align: top;
+    width: 245px;
+    height: 39px;
+}
+.learn{
+    width: 667px;
+    height: 93px;
+}
+.menu {
+    width: 662px;
+    height: 374px;
+}
