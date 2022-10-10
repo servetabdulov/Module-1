@@ -2,9 +2,59 @@
     width: 1440px;
     height: 6575px;
 }
-img{
+.first{
     width: 112px;
     height: 66px;
     margin-left: 121px;
-    margin-top: 21px; 
+    margin-top: 21px;
+}
+.globe-photo{
+    width: 22px;
+    height: 21px;
+    margin-right: 8px;
+}
+.head{
+    display: flex;
+    margin-left: 121px;
+    margin-top: 97px;
+    padding: 2px;
+}
+p{
+    width: 130px;
+    height: 32px;
+}
+.online {
+    margin-right: 25px;
+}
+.hour-photo {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+.calendar-photo {
+    width: 20px;
+    height: 22px;
+    margin-right: 13px;
+}
+.head p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+}
+.two-divcls{
+    display: flex;
+}
+.first-h{
+    width: 628px;
+    height: 190px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 80px;
+    margin-left: 122px;
+    margin-top: 29px;
+}
+.first-text{
+    width: 414px;
+    height: 62px;
+    margin-left: 122px;
 }
