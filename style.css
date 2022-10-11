@@ -41,66 +41,6 @@
     line-height: 101%;
     vertical-align: top;
 }
-th.first-th{
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 25px;
-    width: 150px;
-    height: 39px;
-    line-height: 130%;
-    vertical-align: top;
-    color: #1E4681;
-}
-th.two-th{
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 25px;
-    width: 214px;
-    height: 39px;
-    line-height: 130%;
-    vertical-align: top;
-    color: #1E4681;
-}
-th.three-th{
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 25px;
-    width: 150px;
-    height: 39px;
-    line-height: 130%;
-    vertical-align: top;
-    color: #1E4681;
-}
-.first-td{
-    font-family: Roboto;
-    font-style: Regular;
-    font-size: 18px;
-    line-height: 23px;
-    line-height: 130%;
-    vertical-align: top;
-    width: 223px;
-    height: 39px;
-}
-.two-td{
-    font-family: Roboto;
-    font-style: Regular;
-    font-size: 18px;
-    line-height: 23px;
-    line-height: 130%;
-    vertical-align: top;
-    width: 271px;
-    height: 109px;
-}
-.three-td{
-    font-family: Roboto;
-    font-style: Regular;
-    font-size: 18px;
-    line-height: 23px;
-    line-height: 130%;
-    vertical-align: top;
-    width: 245px;
-    height: 39px;
-}
 .learn{
     width: 667px;
     height: 93px;
