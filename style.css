@@ -1,7 +1,38 @@
-.main{
+<<<<<<< HEAD
+=======
+.lmb{
+    position: absolute;
+    width: 112px;
+    height: 66px;
+    margin-left: 121px;
+    margin-top: 21px;
+}
+.web{
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 121px;
+    top: 184px;
+}
+.onkurs{
 
 }
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> e6eeca9c8f5e242ddb314bf34ffb447304aa002b
 .main h1 {
+    
+}
+.format{
     width: 667px;
     height: 93px;
     margin-left: 121px;
@@ -10,72 +41,24 @@
     line-height: 101%;
     vertical-align: top;
 }
-.format{
-    width: 100%;
-    height: 300px;
-}
-th.first-th{
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 25px;
+.first-h{
     width: 150px;
     height: 39px;
-    line-height: 130%;
-    vertical-align: top;
-    color: #1E4681;
 }
-th.two-th{
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 25px;
+.two-h{
     width: 214px;
     height: 39px;
-    line-height: 130%;
-    vertical-align: top;
-    color: #1E4681;
 }
-th.three-th{
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 25px;
+.last-h{
     width: 150px;
     height: 39px;
-    line-height: 130%;
-    vertical-align: top;
+}
+.block h3{
     color: #1E4681;
-}
-.first-td{
-    font-family: Roboto;
-    font-style: Regular;
-    font-size: 18px;
-    line-height: 23px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 25px;
     line-height: 130%;
-    align: left;
-    vertical-align: top;
-    width: 223px;
-    height: 39px;
-}
-.two-td{
-    font-family: Roboto;
-    font-style: Regular;
-    font-size: 18px;
-    line-height: 23px;
-    line-height: 130%;
-    align: left;
-    vertical-align: top;
-    width: 271px;
-    height: 109px;
-}
-.three-td{
-    font-family: Roboto;
-    font-style: Regular;
-    font-size: 18px;
-    line-height: 23px;
-    line-height: 130%;
-    align: left;
-    vertical-align: top;
-    width: 245px;
-    height: 39px;
 }
 .learn{
     width: 667px;
