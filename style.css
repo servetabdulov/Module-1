@@ -41,6 +41,25 @@
     line-height: 101%;
     vertical-align: top;
 }
+.first-h{
+    width: 150px;
+    height: 39px;
+}
+.two-h{
+    width: 214px;
+    height: 39px;
+}
+.last-h{
+    width: 150px;
+    height: 39px;
+}
+.block h3{
+    color: #1E4681;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+}
 .learn{
     width: 667px;
     height: 93px;
@@ -48,7 +67,4 @@
 .menu {
     width: 662px;
     height: 374px;
-}
-.format h1{
-    margin-bottom: 90px;
 }
