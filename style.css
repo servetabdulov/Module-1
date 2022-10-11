@@ -1,6 +1,31 @@
-.main{
+.lmb{
+    position: absolute;
+    width: 112px;
+    height: 66px;
+    margin-left: 121px;
+    margin-top: 21px;
+}
+.web{
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 121px;
+    top: 184px;
+}
+.onkurs{
 
 }
+
+
+
+
+
+
+
+
+
+
+
 .main h1 {
     width: 667px;
     height: 93px;
