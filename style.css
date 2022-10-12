@@ -41,24 +41,52 @@
     line-height: 101%;
     vertical-align: top;
 }
-.first-h{
+.first-p{
     width: 150px;
     height: 39px;
 }
-.two-h{
+.two-p{
     width: 214px;
     height: 39px;
 }
-.last-h{
+.last-p{
     width: 150px;
     height: 39px;
 }
-.block h3{
+.first-section p{
     color: #1E4681;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 25px;
     line-height: 130%;
+    margin: 0 0 1px 0;
+}
+.first-span{
+    width: 223px;
+    height: 39px;
+}
+.two-span{
+    width: 271px;
+    height: 109px;
+}
+.last-span{
+    width: 245px;
+    height: 39px;
+}
+.first-section span{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    display: block;
+}
+.first-section{
+    display: flex;
+    width: 90%;
+    margin-bottom: 79px;
+}
+.block{
+    display: block;
 }
 .learn{
     width: 667px;
