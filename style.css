@@ -334,7 +334,7 @@ body{
 }
 .last-text{
     font-size: 25px;
-    width: 365px;
+    width: 80vw;
     margin: 32px 15px 23px 19px;
 }
 .head-textt{
@@ -344,7 +344,7 @@ body{
 }
 .last-textt{
     font-size: 25px;
-    width: 365px;
+    width: 80vw;
     margin: 1px 15px 23px 19px;
 }
 .picture{
