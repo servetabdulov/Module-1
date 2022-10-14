@@ -1204,6 +1204,9 @@ h1 {
     }
 
 /*Servet*/
+.kursdiv{
+    padding-left: 290px;
+}
 .format{
     font-family: 'Roboto Slab';
     width: 90%;
