@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap");
+
 body{
     padding-top: 21px;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     width: 100%;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p
+{
+  margin:0;
 }
 .container{
     width: 100%;
@@ -366,8 +378,298 @@ h1 {
     font-size: 15px;
 }
 /* Resad */
+.photos{
+    max-width: 100%;
+    display: block;
+}
+.containerr {
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  
+  .firstdv {
+    background: #9dc9c8;
+    padding-top: 179px;
+    padding-bottom: 185px;
+    width: 100%;
+  }
+  .firstdv h1 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* or 56px */
+    color: #000000;
+  }
+  .firstdv h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+    /* or 25px */
+    color: #000000;
+    margin-top: 54px;
+    margin-bottom: 0;
+  }
+  .firstdv_p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 101.38%;
+    /* or 81px */
+    color: #000000;
+    margin-bottom: 75px;
+  }
+  .firstdv_text {
+    display: flex;
+    width: 65%;
+    
+  }
+  .tworep{
+    margin-left: 100px;
+  }
+  @media screen {
+    
+  }
+  .firstdv_text_block h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+    /* or 25px */
+    color: #000000;
+    margin-bottom: 9px;
+  }
+  .firstdv_text_block p {
+    width: 294px;
+    height: 70px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+    /* or 18px */
+    color: #000000;
+  }
+  
+  .footer {
+    background: #000000;
+    padding-top: 60px;
+    padding-bottom: 48px;
+    display: flex;
+    width: 100%;
+  }
+  .footer_logo {
+    width: 70%;
+  }
+  .footer_logo_main img {
+    width: 115px;
+    height: 68px;
+    margin-bottom: 30px;
+  }
+  .footer_logo_web {
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+  }
+  .footer_logo_web img {
+    width: 33px;
+    height: 33px;
+  }
+  .footer_logo p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+    /* or 18px */
+    color: #ffffff;
+    margin-top: 147px;
+  }
+  .footer_number {
+    width: 30%;
+  }
+  .footer_number_detail {
+    display: flex;
+  }
+  .footer_number_detail:last-child {
+    margin-top: 22px;
+  }
+  .footer_number_detail img {
+    margin: auto 22px;
+    width: 27px;
+    height: 27px;
+    margin-left: 0;
+  }
+  .footer_container {
+    display: flex;
+  }
+  .footer_number_detail p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 101.38%;
+    /* or 25px */
+    color: #ffffff;
+  }
+  
+  /* medialar (Rashad) */
 
-
+  @media (max-width: 1279px) {
+ 
+    .firstdv {
+      padding-top: 103px;
+      padding-bottom: 115px;
+    }
+  
+    .firstdv h1 {
+      font-size: 32px;
+      line-height: 101.38%;
+      /* or 56px */
+    }
+    .firstdv h5 {
+      font-size: 14px;
+      margin-top: 31px;
+    }
+    .firstdv_p {
+      font-size: 46px;
+      margin-bottom: 47px;
+    }
+    .firstdv_text {
+      width: 50%;
+    }
+    .firstdv_text_block h3 {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    .firstdv_text_block p {
+      width: 170.28px;
+      height: 40.54px;
+      font-size: 10px;
+    }
+    .footer {
+      padding-top: 29px;
+      padding-bottom: 25px;
+    }
+    .footer_logo {
+      width: 80%;
+    }
+    .footer_logo_main img {
+      width: 66.6px;
+      height: 39.38px;
+      margin-bottom: 17px;
+    }
+    .footer_logo_web {
+      width: 120px;
+    }
+    .footer_logo_web img {
+      width: 19.11px;
+      height: 19.11px;
+    }
+    .footer_logo p {
+      font-size: 10px;
+      margin-top: 84px;
+    }
+    .footer_number {
+      width: 20%;
+    }
+    .footer_number_detail:last-child {
+      margin-top: 14px;
+    }
+    .footer_number_detail img {
+      width: 15.64px;
+      height: 15.64px;
+      margin-right: 12px;
+    }
+    .footer_number_detail p {
+      font-size: 14px;
+    }
+    
+  }
+  @media (max-width: 991px) {
+    
+    .firstdv {
+      padding-top: 62px;
+      padding-bottom: 63px;
+    }
+    .firstdv h1 {
+      font-size: 26px;
+    }
+    .firstdv h5 {
+      font-size: 12px;
+      margin-top: 31px;
+    }
+    .firstdv_p {
+      font-size: 37px;
+      margin-bottom: 35px;
+    }
+    .firstdv_text {
+      width: 100%;
+    }
+    .firstdv_text_block h3 {
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+    .firstdv_text_block p {
+      width: 138px;
+      height: 47px;
+      font-size: 10px;
+    }
+    .footer {
+      padding-top: 23px;
+      padding-bottom: 10px;
+    }
+    .footer_container {
+      position: relative;
+      display: block;
+    }
+    .footer_logo {
+      width: 100%;
+    }
+    .footer_logo_main img {
+      width: 53.59px;
+      height: 31.69px;
+      margin-bottom: 14px;
+    }
+    .footer_logo_web {
+      width: 100px;
+    }
+    .footer_logo_web img {
+      width: 15.38px;
+      height: 15.38px;
+    }
+    .footer_logo p {
+      font-size: 10px;
+      margin-top: 138px;
+    }
+    .footer_number {
+      position: absolute;
+      bottom: 78px;
+      width: 100%;
+    }
+    .footer_number_detail:last-child {
+      margin-top: 14px;
+    }
+    .footer_number_detail img {
+      width: 12.58px;
+      height: 12.58px;
+      margin-right: 10px;
+    }
+    .footer_number_detail p {
+      font-size: 12px;
+    }
+   
+  }
+  @media  (min-width:992px) and (max-width:1278px) {
+    .tworep{
+      margin-left:70px;
+    }
+  }
+  @media  (max-width:500px) {
+    .tworep{
+      margin-left:30px;
+    }
+  }
+  
 
 
 
