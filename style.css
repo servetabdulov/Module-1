@@ -4,10 +4,12 @@ body{
     padding-top: 21px;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    width: 100%;
 }
 .container{
     width: 100%;
     height: 100%;
+    margin: auto;
 }
 .main{
     width: 90%;
@@ -105,8 +107,7 @@ body{
     margin-bottom: 248px;
 }
 .program{
-    width: 100%;
-    margin: auto;
+    width: 80%;
 }
 .program .head{
     font-family: 'Roboto Slab';
@@ -154,8 +155,9 @@ body{
     border-radius: 30px;
 }
 .kurs-1616{
+    display: block;
     width: 100%;
-    height: 578px;
+    height: 100%;
     background-color: #EFEFEF;
     padding: 91px 0px 111px;
 }
@@ -182,8 +184,7 @@ body{
 .kurs-text{
     width: 700px;
     height: 203px;
-    font-family: Roboto;
-    font-style: Regular;
+    font-family: 'Roboto';
     font-size: 20px;
     font-weight: 400;
 }
@@ -193,11 +194,11 @@ body{
 .ekaterina{
     margin-left: 30px;
 }
-.ekaterina p{
-    font-family: Roboto Slab;
+.name-eka{
+    font-family: 'Roboto Slab';
     font-style: bold;
     font-weight: 700;
-    font-size: 30px
+    font-size: 15px;
 }
 /* Resad */
 
@@ -213,6 +214,10 @@ body{
 /*Tablet*/
 @media only screen and (min-width:992px) and (max-width:1280px) {
 /*Ilkin*/
+body{
+    padding-left: 70px;
+    margin: auto;
+}
 
 
 
@@ -306,7 +311,7 @@ body{
     font-size: 14px;
     margin-bottom: 143.63px;
 }
-.head{
+.program .head{
     font-family: 'Roboto Slab';
     font-size: 32px;
 }
@@ -349,16 +354,41 @@ body{
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
-
-
-
-
-
-
-
-
-
-
+.kurs-1616{
+    width: 100%;
+    height: 500px;
+    padding: 52.7px 0px 64.29px;
+}
+.course{
+    font-family: 'Roboto Slab';
+    font-size: 32px;
+    margin: 26.7px 192.7px 19.69px 69.66px;
+}
+.kubik{
+    width: 458.12px;
+    height: 261.2px;
+    border-radius: 17.38px;
+}
+.kurs-text{
+    width: 405.42px;
+    height: 117.57px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    margin: 23.17px 26.64px 5.79px 26.06px;
+}
+.bottom-kubik{
+    display: flex;
+}
+.eka-photo{
+    width: 110.04px;
+    height: 97.88px;
+    margin-right: 17.38px;
+}
+.ekaterina p{
+    font-family: 'Roboto Slab';
+    font-size: 17px;
+}
 
 /*Resad*/
 
@@ -376,6 +406,12 @@ body{
 /*Mobile*/
 @media only screen and (min-width:320px) and (max-width:991px) {
 /*Ilkin*/
+body{
+    padding-left: 35px;
+    padding-top: 35px;
+    width: 100%;
+    margin: auto;
+}
 
 
 
@@ -389,6 +425,177 @@ body{
 
 
 /*Servet*/
+.format{
+    font-family: 'Roboto Slab';
+    width: 90%;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 16.66px;
+}
+.first-section{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 216px;
+    margin-bottom: 73px;
+}
+.block{
+    display: block;
+}
+.first-h {
+    width: 69.9px;
+    height: 18.17px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #1E4681;
+}
+.two-h {
+    width: 99.72px;
+    height: 18.17px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #1E4681; 
+}
+.last-h {  
+    width: 69.9px;
+    height: 18.17px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #1E4681;
+}
+.first-p{
+    width: 180px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 10px;
+}
+.two-p{
+    width: 165px;
+    height: 51px;
+    font-weight: 400;
+    font-size: 10px;
+}
+.last-p{
+    width: 159px;
+    height: 31px;
+    font-weight: 400;
+    font-size: 10px;
+}
+.learn{
+    font-family: 'Roboto Slab';
+    width: 310.8px;
+    height: 43.34px;
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 9.66px;
+}
+.menu{
+    font-family: 'Roboto';
+    width: 299px;
+    height: 174px;
+    font-size: 12px;
+    margin-bottom: 85px;
+}
+.program .head{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 35.66px;
+}
+.pictures{
+    display: flex;
+    width: 186px;
+    height: auto;
+    flex-direction: column;
+    row-gap: 24.16px;
+}
+.picture {
+    width: 185.92px;
+    height: 152.84px;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+}
+.photo{
+    width: 185.92px;
+    height: 74.56px;
+}
+.head-text{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5.13px 6.52px 14.91px 9.32px;
+}
+.last-text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    margin: 14.91px 6.99px 10.72px 8.85px;
+}
+.head-textt{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    margin: 7.46px 6.52px 0.47px 9.32px;
+}
+.last-textt{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0.47px 6.99px 10.72px 8.85px;
+}
+.kurs-1616{
+    background-color: #EFEFEF;
+    width: 376px;
+    height: 328px;
+    padding-top: 42px;
+    padding-bottom: 53px;
+}
+.course{
+    font-family: 'Roboto Slab';
+    margin: 42px 83px 11px 36px;
+    width: 257px;
+    height: 69px;
+    font-weight: 700;
+    font-size: 26px;
+}
+.kubik{
+    background-color: white;
+    border-radius: 30px;
+    padding: 18.47px 21px 13px 21px;
+    width: 266px;
+    height: 216.53px;
+    margin: 11px 32px 53px 36px;
+}
+.kurs-text{
+    width: 266px;
+    height: 111.01px;
+    font-size: 10px;
+}
+.bottom-kubik{
+    display: flex;
+}
+.eka-photo{
+    width: 80px;
+    height: 84px;
+    margin: 21.52px 13.63 13px 21px;
+}
+.name-eka{
+    font-family: 'Roboto Slab';
+    width: 164.49px;
+    height: 32.73px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 39.06px 28.88px 0px 13.63px;
+}
+.fb-photo{
+    width: 14.91px;
+    height: 17.2px;
+    margin-left: 13.63px;
+}
+.ekaterina{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
