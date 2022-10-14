@@ -1,207 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&family=Roboto:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap"); */
-
-body{
-    padding-top: 21px;
-    font-family: 'Roboto', sans-serif;
-    margin: 0px;
-    width: 100%;
-}
-
-.container{
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
-.main{
-    width: 90%;
-    padding: 0;
-    margin: auto;
-}
-
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap");
 /* Ilkin */
-
-
-#sinxro {
+.first-section {
+    padding: 0px 121px;
+    margin: 0;
+}
+.logo {
     width: 112px;
     height: 66px;
-    margin-bottom: 70px;
 }
-
-
-
-#globe, #clock, #calendar {
-    width: 22px;
-    height: 21px;
+.second-section {
+    margin-top: 118px;
+    padding: 0px 121px;
 }
-
-.xirda-p {
-    font-size: 20px;
-    margin-right: 20px;
-    margin-left: 10px;
-}
-
-
-#xirda {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-}
-
-h1 {
-    font-weight: 700;
-    font-size: 80px;
-    font-family: 'Roboto Slab', serif;
-    margin: 0px;
-    width: 70%;
-}
-
-#zaa {
-    width: 414px;
-    font-weight: 400;
-    font-size: 20px;
-    color: #000000;
-}
-
-#photo1 {
-    position: absolute;
-    width: 25%;
-    height: 356px;
-    right: 150px;
-    top: 223px;
-}
-
-#ellipse1 {
-    position: absolute;
-    width: 25%;
-    height: 41px;
-    right: 140px;
-    top: 558px;
-    z-index: -1;
-}
-
-
-#not {
-    background: #1E4681;
-    border-radius: 5px;
-    width: 30%;
-    height: 200px;
-    padding: 20px 0px 10px 20px;
-    margin: 150px 0px 0px 280px;
-}
-
-#main-not {
-    /* width: 90%; */
-    height: 113px;
-    font-size: 25px;
-    font-family: 'Roboto Slab';
-}
-
-#aut {
-    font-size: 20px;
-    height: 45.64px;
-    position: relative;
-    margin-left: 300px;
-    margin-bottom: 50px;
-}
-
-#main-not, #aut {
-    color: white;
-}
-
-
-.con {
-    width: 80%;
-    margin-top: 155px;
-}
-
-#text-h2 {
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 55px;
-    width: 50%;
-    height: 93px;
-    margin-bottom: 5px;
-}
-
-#abt-of-course {
-    font-size: 24px;
-    width: 78%;
-    height: 374px;
-}
-
-#photo2 {
-    position: absolute;
-    width: 25%;
-    height: 315px;
-    right: 150px;
-    top: 1150px;
-}
-
-#ellipse2 {
-    position: absolute;
-    width: 366px;
-    height: 59px;
-    right: 140px;
-    top: 1440px;
-    z-index: -1;
-}
-
-
-.ab-in-pic {
-    margin-right: 0px;
-    width: 90%;
-    height: 300px;
-    display: flex;
-}
-#photo-block3{
-    width: 30%;
-}
-#photo3 {
-    position: relative;
-    width: 100%;
-    height: 203px;
-    left: 15px;
-    top: 0px;
-}
-
-#ellipse3 {
-    position: relative;
-    width: 100%;
-    height: 32px;
-    left: 35px;
-    top: -20px;
-    z-index: -1;
-}
-
-
-#phtxt {
-    width: 30%;
-    display: flex;
-    margin: 10px 0px 0px 100px;
-}
-
-.near-photo-text {
-    display: block;
-    padding-right: 15px;
-
-}
-
-.boldhead {
-    font-weight: 700;
-    font-size: 25px;
-    width: 100%;
-}
-
-.txt {
-    font-size: 18px;
-    width: 100%;
-}
-
-
 /* Servet */
 .format{
     font-family: 'Roboto Slab';
@@ -217,7 +28,6 @@ h1 {
     display: flex;
     width: 90%;
     margin-bottom: 179px;
-    
 }
 .first-h{
     font-weight: 700;
@@ -368,94 +178,86 @@ h1 {
 .containerr {
     margin: 0 auto;
     width: 80%;
-  }
-  
-  
-  .firstdv {
+}
+.firstdv {
     background: #9dc9c8;
     padding-top: 179px;
     padding-bottom: 185px;
     width: 100%;
-  }
-  .firstdv h1 {
+}
+.firstdv h1 {
     font-family: "Roboto Slab", serif;
     font-weight: 700;
     font-size: 55px;
     line-height: 101.38%;
-    /* or 56px */
     color: #000000;
-  }
-  .firstdv h5 {
+}
+.firstdv h5 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 25px;
     line-height: 101.38%;
-    /* or 25px */
     color: #000000;
     margin-top: 54px;
     margin-bottom: 0;
-  }
-  .firstdv_p {
+}
+.firstdv_p {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 80px;
     line-height: 101.38%;
-    /* or 81px */
     color: #000000;
     margin-bottom: 75px;
-  }
-  .firstdv_text {
+}
+.firstdv_text {
     display: flex;
     width: 65%;
-    
-  }
-  .tworep{
+}
+.tworep{
     margin-left: 100px;
-  }
-  @media screen {
+}
+@media screen {
     
-  }
-  .firstdv_text_block h3 {
+}
+.firstdv_text_block h3 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 25px;
     line-height: 101.38%;
-    /* or 25px */
     color: #000000;
     margin-bottom: 9px;
-  }
-  .firstdv_text_block p {
+}
+.firstdv_text_block p {
     width: 294px;
     height: 70px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 101.38%;
-    /* or 18px */
     color: #000000;
-  }
+}
   
-  .footer {
+.footer {
     background: #000000;
     padding-top: 60px;
     padding-bottom: 48px;
     display: flex;
     width: 100%;
-  }
-  .footer_logo {
+}
+.footer_logo {
     width: 70%;
-  }
-  .footer_logo_main img {
+}
+.footer_logo_main img {
     width: 115px;
     height: 68px;
     margin-bottom: 30px;
-  }
-  .footer_logo_web {
+}
+.footer_logo_web {
     display: flex;
     width: 220px;
     justify-content: space-between;
-  }
-  .footer_logo_web img {
+}
+.footer_logo_web img {
     width: 33px;
     height: 33px;
   }
@@ -464,7 +266,6 @@ h1 {
     font-weight: 400;
     font-size: 18px;
     line-height: 101.38%;
-    /* or 18px */
     color: #ffffff;
     margin-top: 147px;
   }
@@ -491,23 +292,145 @@ h1 {
     font-weight: 400;
     font-size: 25px;
     line-height: 101.38%;
-    /* or 25px */
     color: #ffffff;
   }
-  
-  /* medialar (Rashad) */
+/*Servet media*/
 
-  @media (max-width: 1279px) {
- 
+
+/*Ilkin Media*/
+@media (min-width: 991px) {
+    .first-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        width: 7.77vw;
+        height: 4.58vw;
+        margin-top: 1.46vw;
+        margin-left: 8.40vw;
+    }
+    .smallText{
+        margin-right: 1.73vw;
+    }
+    .globe .clock .calendar{
+        width: 1.527vw;
+        height: 1.46vw;
+    }
+    .second-section{
+        display: flex;
+        flex-direction: row;
+    }
+    .smallText{
+        display: flex;
+        flex-direction: row;
+        margin-top: 6.94vw;
+        margin-left: 8.40vw;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.39vw;
+        line-height: 115%;
+        width: 11.1vw;
+        height: 2.22vw;
+    }
+    .group-25{
+        margin-left: 9.72vw;
+        width: 21.11vw;
+        height: 24.72vw;
+        margin-top: 0.28vw;
+    }
+    .course{
+        display: flex;
+        align-items: center;
+    }
+    .course p{
+        font-family: 'Roboto';
+        max-width: 46vw;
+        font-size: 1.6vw;
+        line-height: 2.5vw;
+        font-weight: 400;
+        margin-left: 8.6vw;
+      }
+      .course h1 {
+        font-family: 'Roboto Slab';
+        max-width: 25.3vw;
+        margin-left: 8.6vw;
+        margin-top: 6.3vw;
+        font-size: 3.8vw;
+        font-weight: 700;
+        line-height: 3.8vw;
+        margin-bottom: 2vw;
+      }
+      .course .right {
+        margin-left: 13vw;
+        margin-top: 11.8vw;
+        position: relative;
+      }
+      .course .right .group-26 {
+        width: 21.8vw;
+        height: 21.87vw;
+        z-index: 5;
+      }
+      .five-section{
+        display: flex;
+        margin-top: 7vw;
+        margin-left: 8.4vw;
+        margin-bottom: 7vw;
+      }
+      .five-section .left{
+        display: flex;
+        position: relative;
+      }
+      .five-section .right{
+        display: flex;
+        position: relative;
+      }
+      .five-sctn{
+        margin-top: 6.47vw;
+        width: 10.4vw;
+      }
+      .five-section .five-sctn p{
+        font-family: 'Roboto', sans-serif;
+        width: 10.4vw;
+        height: 2.7vw;
+        font-weight: 700;
+        font-size: 1.7vw;
+        line-height: 2.2vw;
+        margin-bottom: 0vw;
+    }
+    .five-section .five-sctn span{
+        font-family: 'Roboto';
+        display: block;
+        width: 10.4vw;
+        height: 2.7vw;
+        font-size: 1.2vw;
+        line-height: 1.6vw;
+        font-weight: 400;
+    }
+    .five-section .first-text{
+        margin-left: 9vw;
+    }
+    .five-section .two-text{
+        margin-left: 6.5vw;
+    }
+    .five-section .last-text{
+        margin-left: 6.4vw;
+    }
+}
+@media (min-width: 320px) and (max-width: 991px) {
+    /*Ilkin mobil media*/
+
+
+}
+/* medialar (Rashad) */
+@media (max-width: 1279px) {
     .firstdv {
       padding-top: 103px;
       padding-bottom: 115px;
     }
-  
     .firstdv h1 {
       font-size: 32px;
       line-height: 101.38%;
-      /* or 56px */
     }
     .firstdv h5 {
       font-size: 14px;
@@ -566,10 +489,8 @@ h1 {
     .footer_number_detail p {
       font-size: 14px;
     }
-    
   }
   @media (max-width: 991px) {
-    
     .firstdv {
       padding-top: 62px;
       padding-bottom: 63px;
@@ -640,7 +561,6 @@ h1 {
     .footer_number_detail p {
       font-size: 12px;
     }
-   
   }
   @media  (min-width:992px) and (max-width:1278px) {
     .tworep{
@@ -651,738 +571,4 @@ h1 {
     .tworep{
       margin-left:30px;
     }
-  }
-  
-
-
-
-
-
-
-
-
-/*Tablet*/
-@media only screen and (min-width:992px) and (max-width:1280px) {
-
-    /*Ilkin*/
-
-    body{
-        padding-left: 70px;
-    }
-    
-    #sinxro{
-        width: 10%;
-        height: 38.23px;
-    }
-    
-    
-    #globe,
-    #clock,
-    #calendar {
-        width: 1%;
-        height: 12px;
-    }
-    
-    
-    .xirda-p {
-        font-size: 12px;
-        margin-right: 10px;
-        margin-left: 5px;
-    }
-    
-    
-    #xirda {
-        margin-top: 0px;
-    }
-    
-    h1{
-        font-size: 46px;
-        width: 30%;
-        height: 110.04px;
-    }
-    
-    #zaa {
-        width: 15%;
-        height: 36px;
-        font-size: 12px;
-    }
-    
-    
-    #photo1 {
-        position: absolute;
-        width: 20%;
-        height: 206.18px;
-        left: 550px;
-        top: 165px;
-    }
-    
-    
-    #ellipse1 {
-        position: absolute;
-        width:20%;
-        height: 23.75px;
-        left: 568px;
-        top: 355px;
-        z-index: -1;
-    }
-    
-    
-    
-    #not {
-        background: #1E4681;
-        border-radius: 5px;
-        width: 25%;
-        height: 115.83px;
-        padding: 10px 20px 5px 15px;
-        margin: 100px 0px 0px 180px;
-        box-sizing: border-box;
-    }
-    
-    #main-not {
-        width: 85%;
-        height: 65.45px;
-        font-size: 14px;
-        font-family: 'Roboto Slab';
-    }
-    
-    #aut {
-        font-size: 12px;
-        width: 20%;
-        height: 26.43px;
-        position: relative;
-        left: 270px;
-    }
-    
-    #main-not, #aut {
-        color: white;
-    }
-    
-    
-    .con {
-        width: 90%;
-        margin-top: 90px;
-    }
-    
-    #text-h2 {
-        font-family: 'Roboto Slab';
-        font-weight: 700;
-        font-size: 32px;
-        width: 211.4px;
-        height: 53.86px;
-        margin-bottom: 5px;
-    }
-    
-    #abt-of-course {
-        font-size: 14px;
-        width: 65%;
-        height: 216.61px;
-    }
-    
-    #photo2 {
-        position: absolute;
-        width: 181.86px;
-        height: 182.44px;
-        right: 250px;
-        top: 685px;
-    }
-    
-    #ellipse2 {
-        position: absolute;
-        width: 211.98px;
-        height: 34.17px;
-        right: 250px;
-        top: 849px;
-        z-index: -1;
-    }
-    
-    .ab-in-pic {
-        margin-right: 0px;
-        width: 90%;
-        height: 150px;
-        display: flex;
-    }
-    #photo-block3{
-        width: 30%;
-    }
-    #photo3 {
-        position: relative;
-        width: 100%;
-        height: 117.57px;
-        left: -10px;
-        top: 0px;
-    }
-    
-    #ellipse3 {
-        position: relative;
-        width: 100%;
-        height: 18.53px;
-        left: 9px;
-        top: -14px;
-        z-index: -1;
-    }
-    
-    #phtxt {
-        width: 30%;
-        display: flex;
-        margin: 10px 0px 0px 0px;
-    }
-    
-    .near-photo-text {
-        display: block;
-        padding: 15px;
-    }
-    
-    .boldhead {
-        font-weight: 700;
-        font-size: 15px;
-        width: 100%;
-        height: 22.59px;
-    }
-    
-    .txt {
-        font-size: 11px;
-        width: 100%;
-        height: 23px;
-    }
-
-/*Servet*/
-.format{
-    font-family: 'Roboto Slab';
-    width: 100%;
-    height: 53.86px;
-    font-weight: 700;
-    font-size: 32px;
-    margin-bottom: 51.55px;
-}
-.first-section{
-    font-family: 'Roboto';
-    display: flex;
-    width: 100%;
-    height: 86.42px;
-    margin-bottom: 103.55px;
-}
-.block-first{
-    display: block;
-    width: 35%;
-    margin-right: 46px;
-}
-.block-two{
-    display: block;
-    width: 35%;
-    margin-right: 50.87px;
-}
-.block-last{
-    display: block;
-    width: 35%;
-}
-.first-h{
-    height: 22.59px;
-    font-weight: 700;
-    font-size: 15px;
-    color: #1E4681;
-    margin-bottom: 0.83px;
-}
-.two-h{
-    
-    height: 22.59px;
-    font-weight: 700;
-    font-size: 15px;
-    color: #1E4681;
-    margin-bottom: 0.83px;
-}
-.last-h{
-  
-    height: 22.59px;
-    font-weight: 700;
-    font-size: 15px;
-    color: #1E4681;
-    margin-bottom: 0.83px;
-}
-.first-p{
-    width: 70%;
-    height: 22px;
-    font-size: 11px;
-}
-.two-p{
-    width: 70%;
-    height: 63px;
-    font-size: 11px;
-}
-.last-p{
-    width: 70%;
-    height: 22.59px;
-    font-size: 11px;
-}
-.learn{
-    font-family: 'Roboto Slab';
-    width: 386.3px;
-    height: 53.86px;
-    font-weight: 700;
-    align-items: center;
-    font-size: 32px;
-    margin-bottom: 12.16px;
-}
-.menu{
-    font-family: 'Roboto';
-    width: 50%;
-    height: 216.61px;
-    font-size: 14px;
-    margin-bottom: 143.63px;
-}
-.program .head{
-    font-family: 'Roboto Slab';
-    font-size: 32px;
-}
-.pictures{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 3%;
-    height: 1070px;
-    margin-bottom: 121px;
-}
-.photo{
-    width: 100%;
-}
-.head-text{
-    font-size: 30px;
-    font-weight: 700;
-    margin: 11px 14px 32px 20px;
-}
-.last-text{
-    font-size: 25px;
-    width: 80vw;
-    margin: 32px 15px 23px 19px;
-}
-.head-textt{
-    font-size: 30px;
-    font-weight: 700;
-    margin: 11px 14px 1px 20px;
-}
-.last-textt{
-    font-size: 25px;
-    width: 80vw;
-    margin: 1px 15px 23px 19px;
-}
-.picture{
-    background: #FFFFFF;
-    width: 30%;
-    height: 328px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-}
-.kurs-1616{
-    
-    padding: 52.7px 0px 64.29px;
-
-}
-.course{
-    font-family: 'Roboto Slab';
-    font-size: 32px;
-    margin: 26.7px 192.7px 19.69px 69.66px;
-}
-.kubik{
-    width: 458.12px;
-    height: 261.2px;
-    border-radius: 17.38px;
-}
-.kurs-text{
-    width: 405.42px;
-    height: 117.57px;
-    font-family: 'Roboto';
-    font-size: 12px;
-    font-weight: 400;
-    margin: 23.17px 26.64px 5.79px 26.06px;
-}
-.bottom-kubik{
-    display: flex;
-}
-.eka-photo{
-    width: 110.04px;
-    height: 97.88px;
-    margin-right: 17.38px;
-}
-.ekaterina p{
-    font-family: 'Roboto Slab';
-    font-size: 17px;
-}
-
-/*Resad*/
-
-
-
-
-
-
-
-
-
-
-
-}
-/*Mobile*/
-@media only screen and (min-width:320px) and (max-width:991px) {
-
-
-    /*Ilkin*/
-
-    body{
-        padding-left: 35px;
-        padding-top: 35px;
-        width: 100%;
-    }
-    
-    #sinxro{
-        width: 52.19px;
-        height: 30.75px;
-        margin-bottom: 30px;
-    }
-    
-    #globe,
-    #clock,
-    #calendar {
-        width: 10.25px;
-        height: 9.79px;
-    }
-    
-    .xirda-p {
-        font-size: 10px;
-        margin-right: 10px;
-        margin-left: 4px;
-    }
-    
-    #xirda {
-        margin-top: 0px;
-    }
-    
-    h1{
-        font-size: 37px;
-        width: 90%;
-    }
-    
-    #zaa {
-        width: 100%;
-        font-size: 10px;
-    }
-    
-    #photo1 {
-        position: absolute;
-        width: 30%;
-        height: 165.89px;
-        right: 47px;
-        top: 254px;
-    }
-    
-    #ellipse1 {
-        position: absolute;
-        width: 30%;
-        height: 19.1px;
-        right: 47px;
-        top: 410px;
-        z-index: -1;
-    }
-    
-    #not {
-        background: #1E4681;
-        border-radius: 5px;
-        width: 60%;
-        height: 93.19px;
-        padding: 10px 20px 5px 15px;
-        margin: 80px 0px 0px 2px;
-        box-sizing: border-box;
-    }
-    
-    #main-not {
-        width: 90%;
-        height: 52.65px;
-        font-size: 11px;
-        font-family: 'Roboto Slab';
-        margin-top: 5px;
-    }
-    
-    #aut {
-        font-size: 12px;
-        width: 40%;
-        height: 21.27px;
-        position: relative;
-        left: 172px;
-        bottom: 16px;
-    }
-    
-    #main-not, #aut {
-        color: white;
-    }
-    
-    .con {
-        width: 365px;
-        margin-top: 75px;
-    }
-    
-    #text-h2 {
-        font-family: 'Roboto Slab';
-        font-weight: 700;
-        font-size: 26px;
-        width: 170.08px;
-        height: 43.34px;
-        margin-bottom: 5px;
-    }
-    #abt-block{
-        width: 90vw;
-    }
-    
-    #abt-of-course {
-        font-size: 12px;
-        width: 80%;
-        margin-right: 0px;
-    }
-    
-    #photo2 {
-        position: absolute;
-        width: 30%;
-        height: 146.78px;
-        right: 110px;
-        top: 688px;
-    }
-    
-    #ellipse2 {
-        position: absolute;
-        width: 30%;
-        height: 27.49px;
-        right: 110px;
-        top: 818px;
-        z-index: -1;
-    }
-    
-    .ab-in-pic {
-        margin-right: 0px;
-        width: 55%;
-        height:380px;
-        display: flex;
-    }
-    #photo-block3{
-        display: none;
-    }
-    #photo3 {
-        display: none;
-    }
-    
-    #ellipse3 {
-        display: none;
-    }
-    
-    #phtxt {
-        width: 90%;
-        height: 152px;
-        display: flex;
-        flex-flow: row wrap;
-        margin: 230px 0px 0px 0px;
-    }
-    
-    .near-photo-text {
-        display: block;
-        padding: 0px;
-        margin-top: 0px;
-        margin: 0px;
-        padding: 0px 20px 0px 0px;
-    }
-    
-    .boldhead {
-        font-weight: 700;
-        font-size: 12px;
-        width: 70px;
-        height: 18px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-     
-    .txt {
-        font-size: 10px;
-        width: 86px;
-        height: 18px;
-        margin-top: 0px;
-    }
-
-/*Servet*/
-.kursdiv{
-    padding-left: 290px;
-}
-.format{
-    font-family: 'Roboto Slab';
-    width: 90%;
-    font-size: 26px;
-    font-weight: 700;
-    margin-bottom: 16.66px;
-}
-.first-section{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 216px;
-    margin-bottom: 73px;
-}
-.block{
-    display: block;
-}
-.first-h {
-    width: 69.9px;
-    height: 18.17px;
-    font-weight: 700;
-    font-size: 12px;
-    color: #1E4681;
-}
-.two-h {
-    width: 99.72px;
-    height: 18.17px;
-    font-weight: 700;
-    font-size: 12px;
-    color: #1E4681; 
-}
-.last-h {  
-    width: 69.9px;
-    height: 18.17px;
-    font-weight: 700;
-    font-size: 12px;
-    color: #1E4681;
-}
-.first-p{
-    width: 180px;
-    height: 48px;
-    font-weight: 400;
-    font-size: 10px;
-}
-.two-p{
-    width: 165px;
-    height: 51px;
-    font-weight: 400;
-    font-size: 10px;
-}
-.last-p{
-    width: 159px;
-    height: 31px;
-    font-weight: 400;
-    font-size: 10px;
-}
-.learn{
-    font-family: 'Roboto Slab';
-    align-items: center;
-    width: 310.8px;
-    height: 43.34px;
-    font-weight: 700;
-    font-size: 26px;
-    margin-bottom: 9.66px;
-}
-.menu{
-    font-family: 'Roboto';
-    width: 299px;
-    height: 174px;
-    font-size: 12px;
-    margin-bottom: 85px;
-}
-.program .head{
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 26px;
-    margin-bottom: 35.66px;
-}
-.pictures{
-    display: flex;
-    align-items: center;
-    height: auto;
-    flex-direction: column;
-    row-gap: 24.16px;
-}
-.picture {
-    width: 185.92px;
-    height: 152.84px;
-    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
-    border-radius: 13.9792px;
-}
-.photo{
-    width: 185.92px;
-    height: 74.56px;
-}
-.head-text{
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 14px;
-    margin: 5.13px 6.52px 14.91px 9.32px;
-}
-.last-text{
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 12px;
-    margin: 14.91px 6.99px 10.72px 8.85px;
-}
-.head-textt{
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 14px;
-    margin: 7.46px 6.52px 0.47px 9.32px;
-}
-.last-textt{
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 14px;
-    margin: 0.47px 6.99px 10.72px 8.85px;
-}
-.kurs-1616{
-    background-color: #EFEFEF;
-    padding: 52.7px 0px 70.66px;
-}
-.course{
-    font-family: 'Roboto Slab';
-    margin: 42px 83px 11px 36px;
-    width: 257px;
-    height: 69px;
-    font-weight: 700;
-    font-size: 26px;
-}
-.kubik{
-    background-color: white;
-    border-radius: 30px;
-    padding: 18.47px 21px 13px 21px;
-    width: 266px;
-    height: 216.53px;
-    margin: 11px 32px 53px 36px;
-}
-.kurs-text{
-    width: 266px;
-    height: 111.01px;
-    font-size: 10px;
-}
-.bottom-kubik{
-    display: flex;
-}
-.eka-photo{
-    width: 80px;
-    height: 84px;
-    margin: 21.52px 13.63 13px 21px;
-}
-.name-eka{
-    font-family: 'Roboto Slab';
-    width: 164.49px;
-    height: 32.73px;
-    font-weight: 700;
-    font-size: 14px;
-    margin: 39.06px 28.88px 0px 13.63px;
-}
-.fb-photo{
-    width: 14.91px;
-    height: 17.2px;
-    margin-left: 13.63px;
-}
-.ekaterina{
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-
-/*Resad*/
-
-
-
-
 }
