@@ -502,6 +502,62 @@
     }
 
     /*Servet*/
+.six-section{
+  margin-top: 11vw;
+  margin-bottom: 14vw;
+}
+.six-section .block {
+  margin-left: 8.4vw;
+  display: flex;
+}
+.six-section .block div {
+  width: 19.4vw;
+  margin-right: 8.5vw;
+}
+.six-section .block div p {
+  color: #1E4681;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.six-section .block div span {
+  font-size: 1.3vw;
+  line-height: 1.6vw;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.six-section .format h1 {
+  font-size: 3.8vw;
+  line-height: 3.9vw;
+  font-family: 'Roboto Slab';
+  margin-left: 8.4vw;
+  margin-bottom: 6.2vw;
+}
+.learn {
+  margin-left: 8.4vw;
+}
+.learn .learnHead {
+  margin-bottom: 2vw;
+}
+.learn .learnHead h1 {
+  font-size: 3.8vw;
+  line-height: 3.87vw;
+  font-weight: 700;
+  font-family: 'Roboto Slab';
+}
+.learn .menu ul {
+  max-width: 46vw;
+  padding-left: 0vw;
+  margin-left: 2vw;
+}
+.learn .menu ul li {
+  font-size: 1.6vw;
+  line-height: 2.6vw;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+/*qaldim burda 6-5*/
     
 }
 @media (min-width: 320px) and (max-width: 991px) {
