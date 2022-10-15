@@ -1,204 +1,203 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap");
 /* Ilkin */
-.first-section {
-    padding: 0px 121px;
-    margin: 0;
+.course{
+  display: flex;
+  align-items: center;
 }
-.logo {
-    width: 112px;
-    height: 66px;
-}
-.second-section {
-    margin-top: 118px;
-    padding: 0px 121px;
-}
-.second-section div {
-  position: relative;
-  width: 167px;
-  height: 36px;
-}
-.second-section div img {
-  margin-right: 7px;
-}
-.second-section span {
+.course p{
+  font-family: 'Roboto';
+  max-width: 662px;
+  font-size: 24px;
+  line-height: 36px;
   font-weight: 400;
-  font-size: 20px;
-  font-style: normal;
-  line-height: 23px;
-  font-family: 'Roboto', sans-serif;
-  position: absolute;
-  top: 6px;
+  margin-left: 124px;
+  line-height: 36px;
 }
-.first-section .globe{
-  width: 22px;
-  height: 21px;
+.course h1{
+  font-family: 'Roboto Slab';
+  max-width: 365px;
+  margin-left: 124px;
+  margin-top: 91px;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 55.76px;
+  margin-bottom: 30px;
 }
-.first-section .clock{
-  width: 22px;
-  height: 22px;
+.course .right{
+  position: relative;
+  margin-left: 190px;
+  margin-top: 170px;
 }
-.first-section .calendar{
-  width: 20px;
-  height: 22px;
+.course .right .group-26{
+  width: 314px;
+  height: 315px;
+}
+.five-section{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 122px;
+  margin-bottom: 100px;
+}
+.five-section .left{
+  display: flex;
+  position: relative;
+}
+.five-section .five-sctn{
+  margin-top: 50px;
+  width: 150px;
+}
+.five-section .five-sctn p{
+  font-family: 'Roboto';
+  width: 150px;
+  height: 39px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32.5px;
+  margin-bottom: 0px;
+}
+.five-section .five-sctn span{
+  font-family: 'Roboto';
+  width: 150px;
+  height: 39px;
+  font-size: 18px;
+  line-height: 23.4px;
+  font-weight: 400;
+}
+.five-section .first-text{
+  margin-left: 132px;
+}
+.five-section .two-text{
+  margin-left: 95px;
+}
+.five-section .last-text{
+  margin-left: 93px;
 }
 /* Servet */
-.format{
-    font-family: 'Roboto Slab';
-    width: 667px;
-    height: 93px;
-    font-size: 55px;
-    margin-bottom: 89px;
-    font-weight: 700;
-    justify-content: space-between;
-    display: flex;
+.six-section {
+  margin-top: 162px;
+  margin-bottom: 200px;
 }
-.first-section{
-    display: flex;
-    width: 90%;
-    margin-bottom: 179px;
+.six-section .block {
+  display: flex;
+  margin-left: 121px;
 }
-.first-h{
-    font-weight: 700;
-    font-size: 25px;
-    color: #1E4681;
-    margin-right: 122px;
+.six-section .block div{
+  width: 280px;
+  margin-right: 122px;
 }
-.two-h{
-    font-weight: 700;
-    font-size: 25px;
-    color: #1E4681;
+.six-section .block div p {
+  color: #1E4681;
+  font-size: 25px;
+  line-height: 32.5px;
+  font-weight: 700;
+  font-family: 'Roboto';
 }
-.last-h{
-    font-weight: 700;
-    font-size: 25px;
-    color: #1E4681;
+.six-section .block div span {
+  font-size: 18px;
+  line-height: 23.4px;
+  font-weight: 400;
+  font-family: 'Roboto';
 }
-.first-p{
-    font-size: 18px;
+.six-section .format h1 {
+  font-size: 55px;
+  line-height: 55.76px;
+  font-family: 'Roboto Slab', serif;
+  margin-left: 121px;
+  margin-bottom: 89px;
 }
-.two-p{
-    font-size: 18px;
+.learn {
+  margin-left: 121px;
 }
-.last-p{
-    font-size: 18px;
+.learn .learnText {
+  margin-bottom: 30px;
 }
-.block{
-    display: block;
+.learn .learnText h1 {
+  font-size: 55px;
+  line-height: 55.76px;
+  font-weight: 700;
+  font-family: 'Roboto Slab', serif;
 }
-.block-first{
-    margin-right: 122px;
+.learn .menu ul {
+  max-width: 662px;
 }
-.block-two{
-    margin-right: 113px;
+.learn .menu ul li {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
 }
-.learn{
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 55px;
-    margin-bottom: 21px;
+.kurs-1616 {
+  background: #EFEFEF;
+  padding: 5em 0em 3em;
 }
-.menu {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 24px;
-    width: 55%;
-    margin-bottom: 248px;
+.kurs-1616 .kursHead {
+  width: 987px;
+  height: 93px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+  margin-left: 122px;
+  margin-bottom: 34px;
 }
-.program{
-    width: 80%;
+.kubik {
+  width: 791px;
+  height: 451px;
+  margin-left: 126px;
+  border-radius: 30px;
+  padding: 20px;
+  padding-left: 45px;
+  box-shadow: 1px 1px 20px 0px #00000040;
+  background-color: white;
+  margin-bottom: 111px;
 }
-.program .head{
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-size: 55px;
-    margin-bottom: 95px;
-}
-.pictures{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    width: 100%;
-    gap: 3%;
-    height: 1070px;
-    margin-bottom: 121px;
-}
-.photo{
-    width: 100%;
-}
-.head-text{
-    font-size: 30px;
-    font-weight: 700;
-    margin: 11px 14px 32px 20px;
-}
-.last-text{
-    font-size: 25px;
-    width: 365px;
-    margin: 32px 15px 23px 19px;
-}
-.head-textt{
-    font-size: 30px;
-    font-weight: 700;
-    margin: 11px 14px 1px 20px;
-}
-.last-textt{
-    font-size: 25px;
-    width: 365px;
-    margin: 1px 15px 23px 19px;
-}
-.picture{
-    background: #FFFFFF;
-    width: 30%;
-    height: 328px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-}
-.kurs-1616{
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: #EFEFEF;
-    padding: 91px 0px 111px;
-}
-.course{
-    font-family: 'Roboto Slab';
-    width: 987px;
-    height: 93px;
-    font-size: 55px;
-    font-style: bold;
-    font-weight: 700;
-    margin-left: 121px;
-    margin-bottom: 34px;
-}
-.kubik{
-    width: 719px;
-    height: 382px;
-    margin-left: 126px;
-    margin-bottom: 111px;
-    border-radius: 30px;
-    box-shadow: 1px 1px 20px 0px #00000040;
-    background-color: white;
-    padding: 40px 46px 29px 26px;
-}
-.kurs-text{
-    width: 700px;
-    height: 203px;
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-weight: 400;
+.kurs-text {
+  width: 700px;
+  height: 203px;
+  left: 170px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+  padding-right: 0px;
+  padding-top: 20px;
+  margin-bottom: 15px;
 }
 .bottom-kubik{
-    display: flex;
+  display: flex;
+  align-items: center;
+}
+.girl-photo{
+  width: 190px;
+  height: 169px;
+  left: 151px;
 }
 .ekaterina{
-    margin-left: 30px;
+  margin-left: 30px;
 }
-.name-eka{
-    font-family: 'Roboto Slab';
-    font-style: bold;
-    font-weight: 700;
-    font-size: 15px;
+.ekaterina p{
+  width: 353px;
+  height: 59px;
+  left: 371px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 101.38%;
+  color: #000000;
+  margin-bottom: -5px;
 }
+.ekaterina img{
+  width: 32px;
+  height: 31px;
+}
+
+
 /* Resad */
 .photos{
     max-width: 100%;
@@ -244,9 +243,6 @@
 }
 .tworep{
     margin-left: 100px;
-}
-@media screen {
-    
 }
 .firstdv_text_block h3 {
     font-family: "Roboto", sans-serif;
@@ -323,11 +319,11 @@
     line-height: 101.38%;
     color: #ffffff;
   }
-/*Servet media*/
 
+  /*Media*/
 
-/*Ilkin Media*/
 @media (min-width: 991px) {
+  /*Ilkin*/
     .first-section{
         display: flex;
         flex-direction: column;
@@ -349,8 +345,72 @@
         display: flex;
         flex-direction: row;
     }
+    .second-small-section{
+      margin-top: 2.01vw;
+      margin-left: 8.40vw;
+    }
+    .heading{
+      width: 43.6vw;
+      height: 13.19vw;
+      font-family: 'Roboto Slab';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 5.555vw;
+      line-height: 101.38%;
+    }
+    .ending{
+      width: 28.75vw;
+      height: 4.3vw;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.39vw;
+      line-height: 150%;
+    }
+    .group-25{
+      margin-left: 9.72vw;
+      width: 21.11vw;
+      height: 24.72vw;
+      margin-top: 0.28vw;
+    }
+    .three-section{
+      display: flex;
+      flex-direction: column;
+      width: 33.585vw;
+      height: 13.9vw;
+      margin-left: 28.429vw;
+      margin-top: 13.67vw;
+      background: #1E4681;
+      border-radius: 5px;
+    }
+    .blue-text{
+      margin-top: 1.337vw;
+      margin-bottom: 4.7vw;
+      margin-left: 1.807vw;
+      margin-right: 1.876vw;
+      background-color: #1E4681;
+      width: 29.9vw;
+      height: 7.847vw;
+      font-family: 'Roboto Slab';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.736vw;
+      line-height: 130%;
+      color: #FFFFFF;
+    }
+    .andrey{
+      margin-left: 11.1vw;
+      width: 19.479vw;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.39vw;
+      line-height: 130%;
+      text-align: right;
+      color: #FFFFFF;
+    }
     .smallText1, .smallText2, .smallText3{
-      font-family: Roboto;
+      font-family: 'Roboto';
       font-style: normal;
       font-weight: normal;
       font-size: 1.39vw;
@@ -361,12 +421,8 @@
     .small{
       display: flex;
       flex-direction: row;
-    }
-    .group-25{
-        margin-left: 9.72vw;
-        width: 21.11vw;
-        height: 24.72vw;
-        margin-top: 0.28vw;
+      margin-left: 8.40vw;
+      margin-top: 6.94vw;
     }
     .course{
         display: flex;
@@ -398,7 +454,6 @@
       .course .right .group-26 {
         width: 21.8vw;
         height: 21.87vw;
-        z-index: 5;
       }
       .five-section{
         display: flex;
@@ -445,11 +500,17 @@
     .five-section .last-text{
         margin-left: 6.4vw;
     }
+
+    /*Servet*/
+    
 }
 @media (min-width: 320px) and (max-width: 991px) {
-    /*Ilkin mobil media*/
+    /*Ilkin mobile*/
 
 
+
+
+    /*Servet mobile*/
 }
 /* medialar (Rashad) */
 @media (max-width: 1279px) {
