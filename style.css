@@ -13,6 +13,35 @@
     margin-top: 118px;
     padding: 0px 121px;
 }
+.second-section div {
+  position: relative;
+  width: 167px;
+  height: 36px;
+}
+.second-section div img {
+  margin-right: 7px;
+}
+.second-section span {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 23px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 6px;
+}
+.first-section .globe{
+  width: 22px;
+  height: 21px;
+}
+.first-section .clock{
+  width: 22px;
+  height: 22px;
+}
+.first-section .calendar{
+  width: 20px;
+  height: 22px;
+}
 /* Servet */
 .format{
     font-family: 'Roboto Slab';
@@ -309,10 +338,10 @@
         margin-top: 1.46vw;
         margin-left: 8.40vw;
     }
-    .smallText{
+    .smallText1, .smallText2{
         margin-right: 1.73vw;
     }
-    .globe .clock .calendar{
+    .globe, .clock, .calendar{
         width: 1.527vw;
         height: 1.46vw;
     }
@@ -320,18 +349,18 @@
         display: flex;
         flex-direction: row;
     }
-    .smallText{
-        display: flex;
-        flex-direction: row;
-        margin-top: 6.94vw;
-        margin-left: 8.40vw;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.39vw;
-        line-height: 115%;
-        width: 11.1vw;
-        height: 2.22vw;
+    .smallText1, .smallText2, .smallText3{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.39vw;
+      line-height: 115%;
+      width: 11.1vw;
+      height: 2.22vw;
+    }
+    .small{
+      display: flex;
+      flex-direction: row;
     }
     .group-25{
         margin-left: 9.72vw;
