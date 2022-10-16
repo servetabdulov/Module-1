@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 /* Ilkin */
 .course{
   display: flex;
@@ -688,8 +693,11 @@
     
 }
 @media (min-width: 320px) and (max-width: 991px) {
+  html,body{
+    overflow-x: hidden;
+  }
     /*Ilkin mobile*/
-
+    
 
 
 
@@ -706,8 +714,196 @@
       margin-bottom: 7vw;
     }
     .six-section .block{
-      
+      display: flex;
+      flex-direction: column;
+      margin-left: 9.6vw;
     }
+    .six-section .block div{
+      margin-bottom: 9vw;
+    }
+    .six-section .block div p {
+      font-family: 'Roboto';
+      color: #1E4681;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3.2vw;
+      line-height: 4.2vw;
+      margin-bottom: 1vw;
+    }
+    .six-section .block div span{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2.6vw;
+      line-height: 3.4vw;
+      display: block;
+      color: #000000;
+    }
+    .six-section .block .first-block span {
+      width: 48vw;
+    }
+    .six-section .block .second-block span {
+      width: 44vw;
+    }
+    .six-section .block .last-block span {
+      width: 42.4vw;
+    }
+    .learn{
+      margin-left: 9.6vw;
+    }
+    .learnHead{
+      margin-bottom: 2.5;
+    }
+    .learnHead h1{
+      font-family: 'Roboto Slab';
+      font-size: 7vw;
+      line-height: 7vw;
+      font-weight: 700;
+      margin-bottom: 7vw;
+    }
+    .learn .menu ul{
+      max-width: 79.733vw;
+      padding-left: 0vw;
+    }
+    .myText .myList ul li {
+      font-family: 'Roboto';
+      font-size: 3.2vw;
+      line-height: 4.8vw;
+      font-weight: 400;
+    }
+    .programme-course{
+      margin-top: 22vw;
+      margin-bottom: 12vw;
+      width: 100vw;
+    }
+    .programme-course .head{
+      margin-left: 9vw;
+      margin-bottom: 9vw;
+    }
+    .programme-course .head h1{
+      font-family: 'Roboto Slab';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 7vw;
+      line-height: 6.933vw;
+    }
+    .programme-course .program{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 25.333vw;
+    }
+    .programme-course .program .picture {
+      border-radius: 30%;
+    }
+    .programme-course .program .picture .part{
+      border-radius: 2.083vw;
+      margin-bottom: 6.6vw;
+    }
+    .programme-course .program .picture .top {
+      box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
+      border-radius: 4.4vw;
+    }
+    .programme-course .program .picture .bottom {
+      padding: 0.7vw 1.39vw;
+    }
+    .programme-course .program .picture .bottom h3 {
+      font-family: 'Roboto';
+      font-size: 3.733vw;
+      font-weight: 700;
+      margin-bottom: 3.9vw;
+      width: 45vw;
+      height: 4.8vw;
+    }
+    .programme-course .program .picture .bottom span {
+      font-family: 'Roboto Slab';
+      font-weight: 400;
+      font-size: 3.2vw;
+    }
+    .programme-course .program .picture .bottom .first {
+      margin-bottom: 1vw;
+      line-height: 3.733vw;
+    }
+    .kurs-1616 {
+      padding: 10vw 0 3em;
+      background: #EFEFEF;
+      width: 100.26vw;
+      height: 112.8vw;
+    }
+    .kurs-1616 .kursHead {
+      width: 68.5vw;
+      height: 18.4vw;
+      font-family: 'Roboto Slab';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 6.93vw;
+      line-height: 101.38%;
+      color: #000000;
+      margin-left: 8.4vw;
+      margin-bottom: 2.93vw;
+    }
+    .kurs-1616 .kubik {
+      width: 82.13vw;
+      height: 66.13vw;
+      margin-left: 8.7vw;
+      border-radius: 3.73vw;
+      padding: 1.3vw;
+      padding-left: 2.7vw;
+      box-shadow: 1px 1px 20px 0px #00000040;
+      background-color: white;
+    }
+    .kurs-1616 .kubik .kurs-text {
+      width: 70.93vw;
+      height: 29.6vw;
+      left: 11.8vw;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.66vw;
+      line-height: 4vw;
+      color: #000000;
+      padding-right: 0vw;
+      padding-top: 1.3vw;
+      margin-bottom: 1.04vw;
+      margin-left: 2vw;
+      margin-top: 2vw;
+    }
+    .kurs-1616 .kubik .bottom-kubik {
+      display: flex;
+      align-items: center;
+    }
+    .kurs-1616 .kubik .bottom-kubik .girl-photo {
+      width: 13.19vw;
+      height: 11.7vw;
+      left: 10.4vw;
+    }
+    .kurs-1616 .kubik .bottom-kubik .girl-photo img {
+      width: 24.33vw;
+      height: 22.4vw;
+      margin-left: 0vw;
+      margin-bottom: 3.46vw;
+    }
+    .kurs-1616 .kubik .bottom-kubik .ekaterina {
+      margin-left: 2vw;
+    }
+    .kurs-1616 .kubik .bottom-kubik .ekaterina p {
+      width: 43.864vw;
+      height: 8.728vw;
+      font-family: 'Roboto Slab';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3.73vw;
+      line-height: 101.38%;
+      color: #000000;
+      margin-bottom: -0.4vw;
+      margin-top: 10.416vw;
+      margin-left: 9vw;
+    }
+    .kurs-1616 .kubik .bottom-kubik .ekaterina img {
+      width: 3.976vw;
+      height: 4.586vw;
+      margin-left: 9vw;
+    }
+
 
 
 
