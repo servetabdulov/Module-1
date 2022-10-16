@@ -10,16 +10,15 @@
   display: flex;
   align-items: center;
 }
-.course p{
+.course .left p{
   font-family: 'Roboto';
   max-width: 662px;
   font-size: 24px;
   line-height: 36px;
   font-weight: 400;
   margin-left: 124px;
-  line-height: 36px;
 }
-.course h1{
+.course .left h1{
   font-family: 'Roboto Slab';
   max-width: 365px;
   margin-left: 124px;
@@ -29,14 +28,10 @@
   line-height: 55.76px;
   margin-bottom: 30px;
 }
-.course .right{
+.course .group-26{
   position: relative;
   margin-left: 190px;
   margin-top: 170px;
-}
-.course .right .group-26{
-  width: 314px;
-  height: 315px;
 }
 .five-section{
   display: flex;
@@ -327,7 +322,7 @@
 
   /*Media*/
 
-@media (min-width: 991px) {
+@media (min-width: 992px) {
   /*Ilkin*/
     .first-section{
         display: flex;
@@ -410,7 +405,7 @@
       font-style: normal;
       font-weight: normal;
       font-size: 1.39vw;
-      line-height: 130%;
+      line-height: 200%;
       text-align: right;
       color: #FFFFFF;
     }
@@ -451,12 +446,12 @@
         line-height: 3.8vw;
         margin-bottom: 2vw;
       }
-      .course .right {
+      .course .group-26 {
         margin-left: 13vw;
         margin-top: 11.8vw;
         position: relative;
       }
-      .course .right .group-26 {
+      .course .grp26{
         width: 21.8vw;
         height: 21.87vw;
       }
@@ -581,23 +576,23 @@
   display: flex;
   flex-wrap: wrap;
 }
-.programme-course .program .part {
+.programme-course .program .picture {
   border-radius: 30%;
   width: 27.70vw;
   margin: 0 1.38vw;
 }
-.programme-course .program .part .particle {
+.programme-course .program .picture .part {
   border-radius: 2.083vw;
   margin-bottom: 2.083vw;
 }
-.programme-course .program .part .top {
+.programme-course .program .picture .top {
   box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
   border-radius: 2.083vw;
 }
-.programme-course .program .part .bottom {
+.programme-course .program .picture .bottom {
   padding: 0.694vw 1.3888vw;
 }
-.programme-course .program .part .bottom h3 {
+.programme-course .program .picture .bottom h3 {
   font-size: 2.083vw;
   line-height: 2.70vw;
   font-weight: 700;
@@ -608,13 +603,13 @@
   width: 27.708vw;
   height: 11.11vw;
 }
-.programme-course .program .part .bottom span {
+.programme-course .program .picture .bottom span {
   font-weight: 400;
   font-size: 1.736vw;
   line-height: 2.256vw;
   font-family: 'Roboto Slab';
 }
-.programme-course .program .part .bottom .eight-h {
+.programme-course .program .picture .bottom .eight-h {
   margin-bottom: 0.694vw;
   line-height: 2.02vw;
 }
@@ -697,125 +692,7 @@
     overflow-x: hidden;
   }
     /*Ilkin mobile*/
-    .first-section{
-      display: flex;
-      flex-direction: column;
-    }
-    .first-section .logo{
-      width: 13.9vw;
-      height: 8.2vw;
-      margin-top: 9.6vw;
-      margin-left: 9.3vw;
-    }
-    .smallText1, .smallText2{
-      margin-right: 2.933vw;
-    }
-    .smallText1, .smallText2, .smallText3{
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 2.54vw;
-      line-height: 115%;
-      width: 19vw;
-      height: 3.78vw;
-    }
-    .globe{
-      width: 2.733vw;
-      height: 2.611vw;
-    }
-    .clock{
-      width: 2.733vw;
-      height: 2.733vw;
-    }
-    .calendar{
-      width: 2.485vw;
-      height: 2.733vw;
-    }
-    .small{
-      display: flex;
-      flex-direction: row;
-      margin-left: 8.40vw;
-      margin-top: 6.94vw;
-    }
-    .second-section{
-      display: flex;
-      flex-direction: column;
-    }
-    .second-small-section{
-      margin-top: 2.133vw;
-      margin-left: 9.3vw;
-    }
-    .heading{
-      width: 78.035vw;
-      height: 23.608vw;
-      font-family: 'Roboto Slab';
-      font-style: normal;
-      font-weight: bold;
-      font-size: 9.39vw;
-      line-height: 101.38%;
-    }
-    .ending{
-      width: 56.64vw;
-      height: 7.723vw;
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 2.667vw;
-      line-height: 150%;
-    }
-    .group-25{
-      width: 37.781vw;
-      height: 46.693vw;
-      margin-top: 0.1vw;
-      margin-left: 53.6vw;
-    }
-    .three-section{
-      display: flex;
-      flex-direction: column;
-      width: 60.096vw;
-      height: 24.851vw;
-      margin-top: 10.304vw;
-      margin-left: 10.128vw;
-      background: #1E4681;
-      border-radius: 0.589vw;
-    }
-    .blue-text{
-      width: 50.76vw;
-      height: 13.36vw;
-      font-family: 'Roboto Slab';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 2.79vw;
-      line-height: 130%;
-      color: #FFFFFF;
-      background-color: #1E4681;
-      margin: 2.392vw 3.357vw 1.845vw 3.235vw;
-    }
-    .andrey{
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 2.53vw;
-      line-height: 130%;
-      text-align: right;
-      color: #FFFFFF;
-      width: 34.853vw;
-      margin-top: 1.845vw;
-      margin-left: 23.219vw;
-    }
-    .course{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .course h1{
-
-    }
-    .course p{
-      
-    }
-    /*Burda qaldim*/
-
+    
 
     /*Servet mobile*/
     .six-section{
@@ -850,7 +727,7 @@
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 400;
-      font-size: 2.6vw;
+      font-size: 2.7vw;
       line-height: 3.4vw;
       display: block;
       color: #000000;
@@ -868,7 +745,7 @@
       margin-left: 9.6vw;
     }
     .learnHead{
-      margin-bottom: 2.5;
+      margin-bottom: 2.5vw;
     }
     .learnHead h1{
       font-family: 'Roboto Slab';
@@ -880,64 +757,73 @@
     .learn .menu ul{
       max-width: 79.733vw;
       padding-left: 0vw;
+      margin-left: 3vw;
     }
-    .myText .myList ul li {
+    .learn .menu ul li {
       font-family: 'Roboto';
       font-size: 3.2vw;
       line-height: 4.8vw;
       font-weight: 400;
     }
     .programme-course{
-      margin-top: 22vw;
-      margin-bottom: 12vw;
+      margin-top: 13.88vw;
+      margin-bottom: 3.47vw;
       width: 100vw;
     }
     .programme-course .head{
-      margin-left: 9vw;
-      margin-bottom: 9vw;
+      width: 107.3vw;
+      height: 11vw;
+      margin-left: 8.62vw;
+      margin-bottom: 8.88vw;
     }
     .programme-course .head h1{
-      font-family: 'Roboto Slab';
-      font-style: normal;
+      font-size: 6.93vw;
+      line-height: 101.38%;
+      height: 11.57vw;
       font-weight: 700;
-      font-size: 7vw;
-      line-height: 6.933vw;
+      font-family: 'Roboto Slab';
     }
     .programme-course .program{
+      margin-left: 25vw;
       display: flex;
       flex-wrap: wrap;
-      margin-left: 25.333vw;
+      width: 49.6vw;
     }
     .programme-course .program .picture {
       border-radius: 30%;
+      width: 49.6vw;
     }
     .programme-course .program .picture .part{
       border-radius: 2.083vw;
-      margin-bottom: 6.6vw;
+      margin-bottom: 6.083vw;
     }
     .programme-course .program .picture .top {
       box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
       border-radius: 4.4vw;
     }
+    .programme-course .program .picture .top img{
+      width: 49.60vw;
+      height: 19.88vw
+    }
     .programme-course .program .picture .bottom {
-      padding: 0.7vw 1.39vw;
+      padding: 0.694vw 1.3888vw;
     }
     .programme-course .program .picture .bottom h3 {
       font-family: 'Roboto';
-      font-size: 3.733vw;
+      font-size: 3.73vw;
       font-weight: 700;
-      margin-bottom: 3.9vw;
-      width: 45vw;
-      height: 4.8vw;
+      margin-bottom: 2.083vw;
+      width: 55vw;
+      height: 4.611vw;
     }
     .programme-course .program .picture .bottom span {
       font-family: 'Roboto Slab';
       font-weight: 400;
       font-size: 3.2vw;
     }
-    .programme-course .program .picture .bottom .first {
-      margin-bottom: 1vw;
-      line-height: 3.733vw;
+    .programme-course .program .picture .bottom .eight-h {
+      margin-bottom: 3vw;
+      line-height: 3.44vw;
     }
     .kurs-1616 {
       padding: 10vw 0 3em;
