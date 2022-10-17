@@ -10,29 +10,6 @@
   display: flex;
   align-items: center;
 }
-.course .left p{
-  font-family: 'Roboto';
-  max-width: 662px;
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: 400;
-  margin-left: 124px;
-}
-.course .left h1{
-  font-family: 'Roboto Slab';
-  max-width: 365px;
-  margin-left: 124px;
-  margin-top: 91px;
-  font-size: 55px;
-  font-weight: 700;
-  line-height: 55.76px;
-  margin-bottom: 30px;
-}
-.course .group-26{
-  position: relative;
-  margin-left: 190px;
-  margin-top: 170px;
-}
 .five-section{
   display: flex;
   margin-top: 100px;
@@ -452,8 +429,8 @@
         position: relative;
       }
       .course .grp26{
-        width: 21.8vw;
-        height: 21.87vw;
+        width: 25.417vw;
+        height: 23.889vw;
       }
       .five-section{
         display: flex;
@@ -695,8 +672,7 @@
     
 
 
-    
-
+  
     /*Servet mobile*/
     .six-section{
       margin-top: 20vw;
